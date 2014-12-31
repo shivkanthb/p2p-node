@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <title>Transfer</title>
+    <script src="http://cdn.peerjs.com/0.3/peer.js"></script>
+    <script type="text/javascript" src="lib.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+  </head>
+  <body>
+    <div id="connectToPeer">
+      Enter Peer Name:
+      <input type="text" id="peerName" name="peerName" /><br />
+      <input type="button" id="connectButton" value="Connect!" />
+    </div>
+    <div id="fileTransfer" style="display:none">
+      Choose File:
+      <input type="file" id="sendFile" name="sendFile" /><br />
+      <input type="button" id="sendButton" value="Send" />
+      <input type="button" id="disconnectButton" value="Disconnect!" />
+    </div>
+    <div id="message"></div>
+  </body>
+</html>
+      
